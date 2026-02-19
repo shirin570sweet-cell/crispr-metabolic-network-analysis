@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata/
+
+# Data (big files - don't commit raw data!)
+data/raw/*
+!data/raw/README.md 
+results/*
+!results/plots/ 
